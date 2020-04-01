@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+
+
+<head>
+    
+    <title>Project 5 forms: Monster Mash</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    
+
+    
+    
+</head>
+    
+    
+    
+
+<body>
+    
+<h2>Project 5 Forms: Monster Mash</h2>    
+
+    
+<p>Hello tiny monster children that live in my house, today I would like you to tell me what monster you are planning on being for the rest of the day. This helps me as your caretaker/monsterkeeper plan your meals, routines and what things you'll most enjoy destroying as the day progresses. Please fill out this form while I go and look for more alcohol, please and thank you.     
+</p>  
+
+<form
+  action="https://formspree.io/xnqbaklb"
+  method="POST"
+>
+<h5>1. What type of monster will you be today?(You may only choose one.)</h5>
+    
+
+  <input type="radio" id="screaming" name="monster" value="screaming">
+  <label for="screaming">Screaming</label><br>
+  <input type="radio" id="stomping" name="monster" value="stomping">
+  <label for="stomping">Stomping</label><br>
+  <input type="radio" id="sadface" name="monster" value="sadface">
+  <label for="other">Sadface</label><br>
+  <input type="radio" id="kingofthewhine" name="monster" value="kingofthewhine">
+  <label for="other">King of the Whine</label><br>
+<input type="radio" id="putsfootindiaper" name="monster" value="putsfootindiaper">
+  <label for="other">Puts Foot in Diaper</label>
+
+<h5>2. Please insert what name you will actually respond to me calling:</h5>
+    
+
+  <label for="fname">Name you will respond to:</label><br>
+  <input type="text" id="name" name="name" value="ScreamyMcPerson?"><br>
+    
+
+    
+    
+<h5>3. Please tell me how many hotdogs you would actually eat <i>(Estimates should not include those you are planning to feed to the dog under the table)</i>:</h5>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Number of hotdogs needed</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+    </div>
+      
+   
+<button type="submit">Send</button>
+    
+    
+  <input type="submit" value="Submit">
+
+</form>
+
+
+    
+    
+    </body>
+</html>
